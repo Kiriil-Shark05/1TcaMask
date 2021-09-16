@@ -1,0 +1,75 @@
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* отображаем курсор в виде руки при наведении; некоторые
+  считают, что необходимо оставлять стрелочный вид для кнопок */
+  cursor: pointer;
+  display: block;
+}
+
+body {
+  background-color: #333;
+}
+
+.wrapper {
+  min-height: 100%;
+  padding: 50px;
+}
+
+
+.block-item {
+  margin: 0px 0px 10px 0px;
+}
+
+.block-title {
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  position: relative;
+}
+
+.block._init .block-title {
+  cursor: pointer;
+}
+
+.block._init .block-title {
+  padding: 10px 40px 10px 10px;
+}
+
+.block._init .block-title::before,
+.block._init .block-title::after {
+  content: '';
+  width: 20px;
+  height: 1px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  transition: transform 0.3s ease 0s;
+}
+
+
+.block._init .block-title::after {
+  transform: rotate(-90deg);
+}
+
+.block._init .block-title._active::after {
+  transform: rotate(0deg);
+}
+
+.block-text {
+  padding: 0 10px 10px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.block-item {
+  background-color: #7a956b;
+}
