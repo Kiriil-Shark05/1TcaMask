@@ -2694,7 +2694,7 @@ footer {
 
 }
 
-.section-information-a img, .section-rates-main-a img {
+.section-information-a img, .section-rates-main-a img, .section-donat-a img {
   transition: 0.3s all;
 }
 
@@ -2704,5 +2704,9 @@ footer {
 
 
 .section-rates-main-a:hover img {
+  margin-left: 5px;
+}
+
+.section-donat-a:hover img {
   margin-left: 5px;
 }
