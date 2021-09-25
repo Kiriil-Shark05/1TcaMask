@@ -61,6 +61,7 @@ setTimeout(function() {
           scrollTop = window.pageYOffset || document.documentElement.scrollTop;
           return {top: rect.top + scrollTop, left: rect.left + scrollLeft }
         }
+        animOnScroll();
         setTimeout(() => {
           animOnScroll();
         }, 300);
@@ -69,7 +70,7 @@ setTimeout(function() {
 
 
 
-}, 1000);
+}, 100);
 
 
 

@@ -1,3 +1,4 @@
+'use strict'
 let a1 = document.querySelector('.header-basket-button2');
 let a2 = document.querySelector('.header-basket-button1');
 let a3 = document.querySelector('.section-project-button1');
@@ -10,6 +11,8 @@ let a9 = document.querySelector('.header-menu-item3');
 let a10 = document.querySelector('.header-menu-item4');
 let a11 = document.querySelector('.header-menu-item5');
 let a12 = document.querySelector('.header-menu-item6');
+
+let body = document.querySelector('body');
 
 
 let rate1 = document.querySelector('.section-rates-main-block1');
@@ -71,7 +74,8 @@ let widthImgInformation1;
 let widthImgInformation2;
 let widthImgInformation3;
 
-
+let abc = body.removeProperty('overflow-x');
+let fds = html.removeProperty('overflow-x');
 
 
 

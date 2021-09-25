@@ -9,12 +9,190 @@
   display: block;
 }
 
+ /* .section-home-text {
+  transition: 1.1s all;
+  transform: translate(-40%, 0%);
+  opacity: 0;
+}
+
+.section-home-text._active {
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+.section-home-img {
+  transition: 1.1s all;
+  transform: translate(40%, 0%);
+  opacity: 0;
+}
+
+
+.section-home-img._active {
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+
+.header-menu, .header-basket {
+  transition: 1.1s all ease 0.5s;
+  transform: translate(0%, -40%);
+  opacity: 0;
+}
+
+.header-menu._active, .header-basket._active {
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+.section-home-description {
+  transition: 1.1s all ease 0.5s;
+  transform: translate(0%, 50%);
+  opacity: 0;
+}
+
+
+.section-home-description._active {
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+.section-home-button-wrapper {
+  transition: 1.1s all ease 0.5s;
+  transform: translate(0%, 50%);
+  opacity: 0;
+}
+
+.section-home-button-wrapper._active {
+  transition: 1.1s all ease 0.5s;
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+.icons-wrapper-item1, .icons-wrapper-item2, .icons-wrapper-item3, .icons-wrapper-item4 {
+  transition: 1.1s all ease 0.5s;
+  transform: scale(0);
+  opacity: 0;
+}
+
+.icons-wrapper-item1._active, .icons-wrapper-item2._active, .icons-wrapper-item3._active, .icons-wrapper-item4._active {
+  transition: 1.1s all ease 0.5s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.section-rates-title, .section-rates-description {
+  transition: 1.1s all ease 0.5s;
+  transform: translate(0%, 50%);
+  opacity: 0;
+}
+
+.section-rates-title._active, .section-rates-description._active {
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+ */
+
 
 .header-menu-item1, .header-menu-item2, .header-menu-item3, .header-menu-item4, .header-menu-item5, .header-menu-item6 {
   border-bottom: 1px solid rgba(0, 0, 0, 0);
   transition: border-bottom 0.3s ease;
 
 }
+
+/* .section-rates-main {
+  transition: 2s all ease 0.5s;
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+.section-rates-main._active {
+  transition: 2s all ease 0.5s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.section-information-img {
+  transition: 1.1s all ease 0.5s;
+  transform: translate(-40%, 0%);
+  opacity: 0;
+}
+
+.section-information-img._active {
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+.section-information-text {
+  transition: 1.1s all ease 0.5s;
+  transform: translate(40%, 0%);
+  opacity: 0;
+}
+
+.section-information-text._active {
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+.section-project-img {
+  transition: 2s all ease 0.5s;
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+.section-project-img._active {
+  transition: 2s all ease 0.5s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.section-project-title {
+  transition: 1.1s all ease 0.5s;
+  transform: translate(0%, 50%);
+  opacity: 0;
+}
+
+.section-project-title._active {
+  transform: translate(0%, 0%);
+  opacity: 1;
+
+}
+
+.section-project-description {
+  transition: 1.1s all ease 0.5s;
+  transform: translate(0%, 50%);
+  opacity: 0;
+}
+
+.section-project-description._active {
+  transform: translate(0%, 0%);
+  opacity: 1;
+
+}
+
+.section-reasons-item1 {
+  transition: 1.1s all ease 0.5s;
+  transform: translate(-40%, 0%);
+  opacity: 0;
+}
+
+.section-reasons-item1._active {
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+.section-reasons-item2 {
+  transition: 1.1s all ease 0.5s;
+  transform: translate(40%, 0%);
+  opacity: 0;
+}
+
+.section-reasons-item2._active {
+  transform: translate(0%, 0%);
+  opacity: 1;
+} */
+
+
+
 
 .section-reasons-item2 {
   margin-right: 0;
@@ -57,15 +235,20 @@ body, html {
   margin: 0 auto;
   left: 0;
   right: 0;
+  overflow-x: hidden;
+  overflow-achor: none;
 
 }
+
+
+
+
 
 
 
 /* Выставляем основные настройки по-умолчанию для body */
 body {
   line-height: 1.5;
-  overflow-x: hidden;
 
 }
 
@@ -1928,7 +2111,9 @@ footer {
   .section-home-text {
     text-align: center;
     margin-top: 45px;
+    transition: 0.5s all;
   }
+
 
   .section-home-button-wrapper {
     justify-content: center;
