@@ -613,9 +613,6 @@ header {
 
 
 
-.icons-wrapper-item1 img:hover {
-  width: 90%;
-}
 
 
 .icons-wrapper2 .icons-wrapper-item1 img {
@@ -2894,4 +2891,12 @@ footer {
 
 .section-donat-a:hover img {
   margin-left: 5px;
+}
+
+
+@media (max-width: 1210px) {
+  body, html {
+    overflow-x: inherit;
+  }
+
 }
